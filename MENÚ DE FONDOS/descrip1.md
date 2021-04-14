@@ -17,5 +17,7 @@ EL comando que sirve para poder cambiar el fondo es el siguiente:
 
 Recuerda utilizar el script desde el directorio donde se encuentra, si lo ejecutas y estás desde otro directorio éste no funcionará.
 
+No mover ningunos de los archivos fuera de la carpeta, ya sean las imágenes o el propio script, si nó se romperá y no funcionará.
+
 ## **REFERENCIAS:**
 Encontré el comando en el siguiente [foro](https://www.enmimaquinafunciona.com/pregunta/62738/-cambiar-el-fondo-de-escritorio-desde-el-terminal-)
