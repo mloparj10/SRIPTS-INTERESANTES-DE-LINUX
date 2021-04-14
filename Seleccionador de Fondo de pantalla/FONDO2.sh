@@ -13,7 +13,12 @@ SeleccionarFoto ()
         echo "La imagen se ha establecido"
     else
         echo "La imagen no se encuentra"
-        exit 1
+        until [ -e $RUTA ]
+        do 
+            read -p "Escriba la ruta de la imagen: " RUTA
+        done
+        gsettings set org.gnome.desktop.background picture-uri "file://$RUTA"
+        echo "Imagen establecida"
     fi
 }
 #Bloq.Principal
