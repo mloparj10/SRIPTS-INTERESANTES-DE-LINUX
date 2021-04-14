@@ -17,5 +17,6 @@ SeleccionarFoto ()
     fi
 }
 #Bloq.Principal
+clear
 Encabezado
 SeleccionarFoto
